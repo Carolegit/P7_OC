@@ -10,11 +10,11 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
-/* Next & previous buttons */
+/* flèches*/
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 60%;
+  top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -27,14 +27,25 @@ img {vertical-align: middle;}
   background-color: grey;
 }
 
-/* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 50px;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a grey background color */
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
   color: black;
 }
+/*img slider*/
+.slide{
+	width:95%;
+	height:500px!important;
+}
+
+/*centrage*/
+.center{
+	text-align:center;
+}
+
+/*Map Leaflet*/
+#mapid { height: 500px; }
