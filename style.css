@@ -49,7 +49,7 @@ img {vertical-align: middle;}
 }
 
 /*MAP OPENLAYERS*/
-.map{
+.myMap{
     height: 400px;
     width: 100%;
 }
