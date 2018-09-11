@@ -5,10 +5,11 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  width: 1000px;
-  height:500px;
+  width: 100%;
+  height:40em;
   position: relative;
-  margin: auto;
+  margin: 0 auto 30px;
+  
 }
 
 /* flèches*/
@@ -29,7 +30,7 @@ img {vertical-align: middle;}
 }
 
 .next {
-  right: 50px;
+  right: 0;
   border-radius: 3px 0 0 3px;
 }
 
@@ -39,8 +40,8 @@ img {vertical-align: middle;}
 }
 /*img slider*/
 .slide{
-	width:95%;
-	height:500px!important;
+	width:100%;
+	height:40em!important;
 }
 
 /*centrage*/
