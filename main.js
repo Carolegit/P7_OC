@@ -1,4 +1,4 @@
-var slideIndex = [1,1];
+/*var slideIndex = [1,1];
 var slideId = ["mySlides1"]
 showSlides(1, 0);
 showSlides(1, 1);
@@ -16,4 +16,4 @@ function showSlides(n, no) {
      x[i].style.display = "none";  
   }
   x[slideIndex[no]-1].style.display = "block";  
-}
+}*/
