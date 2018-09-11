@@ -1,3 +1,4 @@
+/*SLIDESHOW*/
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;}
@@ -47,5 +48,8 @@ img {vertical-align: middle;}
 	text-align:center;
 }
 
-/*Map Leaflet*/
-#mapid { height: 180px; }
+/*MAP OPENLAYERS*/
+.map{
+    height: 400px;
+    width: 100%;
+}
