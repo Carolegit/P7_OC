@@ -1,3 +1,6 @@
+
+function initMap() {//initialisation de la map
+
 var map = new ol.Map({//création de l'objet map
         target: 'map', //liaison de l'objet map au div
         layers: [
@@ -10,3 +13,15 @@ var map = new ol.Map({//création de l'objet map
           zoom: 15
         })
       });
+}
+
+	  // Création tableau pour les marqueurs(exemple google map)
+function createMarker(station) {
+	    var marker = new google.maps.Marker({
+    		position: //latitude,longitude
+    	    icon: this.icon,//icone à créer
+			title: //nom station 	    
+    	    status: //statut
+    	    map: map
+    	});
+      
